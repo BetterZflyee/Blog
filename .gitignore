@@ -52,3 +52,6 @@ package-lock.json
 # yarn.lock
 
 .notion-api-lock
+
+# old blog folder
+/bolg_old
