@@ -23,7 +23,7 @@ export function InfoCard(props) {
                 }}
             >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={SITE_IMAGES.AVATAR || siteInfo?.icon} className='rounded-full' width={120} alt={siteConfig('AUTHOR')} />
+                <img src='https://raw.githubusercontent.com/BetterZflyee/MyAssets/main/avatar.jpg' className='rounded-full' width={120} alt={siteConfig('AUTHOR')} />
             </div>
             <div className='font-medium text-center text-xl pb-4'>{siteConfig('AUTHOR')}</div>
             <div className='text-sm text-center'>{siteConfig('BIO')}</div>
